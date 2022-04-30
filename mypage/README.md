@@ -1,1 +1,1 @@
-# https://rayrayfan.github.io/kari/
+# https://rayrayfan.github.io/mypage/
