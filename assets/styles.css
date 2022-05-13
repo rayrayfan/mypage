@@ -28,7 +28,73 @@ p {
   display: block;
 }
 
+
+
+.navbar-brand {
+  padding-left: 30px;
+  /* font-family: fantasy; */
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding-right: 30px;
+}
 .nav-link {
   font-family: 'Radio Canada', sans-serif;
   font-weight: 400;
+}
+
+.navbar {
+  background-color: rgb(59, 7, 7);
+
+}
+
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.typing {
+  width: 13ch;
+  animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 5em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.projectWrap {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  border-radius: 50px;
+  
+}
+
+.projectDescription {
+  width: 550px;
+  height: 350px;
+  padding: 36px;
+  text-align: center;
+  background-color: rgb(210, 202, 202);
+}
+
+.projectDescription > h3,p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
 }
